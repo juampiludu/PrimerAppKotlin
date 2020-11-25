@@ -1,5 +1,5 @@
 # Introducción
-Esta es una introducción sobre cómo crear una aplicación usando Kotlin y Android Studio.
+Este es un tutorial sobre cómo crear una aplicación usando Kotlin y Android Studio.
 La aplicación se trata de una lista que va a ir almacenando las palabras que el usuario va a ir ingresando en un campo de texto.
 La app en cuestión se vería así:
 
