@@ -145,8 +145,8 @@ private var arrayAdapter: ArrayAdapter<String>? = null
 private val items: ArrayList<String> = arrayListOf()
 ```
 
-Ahora vamos a proceder a llamar al objecto ArrayAdapter(), redefiniendo nuestra variable arrayAdapter, dónde vamos a especificar el tipo de lista que queremos (en este caso, multiple choice) y el nombre del array que vamos a utlilizar. Esto lo vamos a hacer dentro del **_onCreate_** y justo debajo de nuestra constanto **texto**.
-También vamos a decirle a listView qué tipo de lista vamos a utilizar.
+Ahora vamos a proceder a llamar al objecto ArrayAdapter(), redefiniendo nuestra variable arrayAdapter, dónde vamos a especificar el tipo de lista que queremos (en este caso, multiple choice) y el nombre del array que vamos a utlilizar. Esto lo vamos a hacer dentro del **_onCreate_** y justo debajo de nuestra constante **texto**.
+También vamos a decirle a **listView** qué tipo de lista vamos a utilizar.
 
 
 ``` kotlin
@@ -212,7 +212,7 @@ Una vez creado el archivo **"delete_button.xml"**, reemplazar el código por el 
 </menu>
 ```
 
-Ahora, vamos a hacer click derecho en la carpeta **drawable** y vamos a hacer click en **New > Vector Asset**. Una vez dentro, en **Clip art**, buscar un ícono que represente un tacho de basura, más específicamente el ícono **"delete"**. Ahora **Color** elegimos el color blanco (#FFFFFF) y el **Name** lo dejamos como está. Damos en **Next** y luego en **Finish**.
+Ahora, vamos a hacer click derecho en la carpeta **drawable** y vamos a hacer click en **New > Vector Asset**. Una vez dentro, en **Clip Art**, buscar un ícono que represente un cesto de basura, más específicamente el ícono **"delete"**. Ahora en **Color**, elegimos el color blanco (#FFFFFF) y a **Name** lo dejamos como está. Damos en **Next** y luego en **Finish**.
 
 <img src="img/icon.png" height="600"/>
 
