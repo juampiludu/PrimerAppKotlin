@@ -11,7 +11,7 @@ Para este tutorial vamos a utilizar el programa **Android Studio**, el cual pode
 
 ## Creando proyecto
 
-Una vez descargado e instalado el programa y los SDK correspondientes, vamos a proceder a crear un nuevo proyecto en **File > New > New Project...**. Vamos a ver una ventana como la siguiente:
+Una vez descargado e instalado el programa y los SDK correspondientes, vamos a proceder a crear un nuevo proyecto en **File > New > New Project**. Vamos a ver una ventana como la siguiente:
 
 <img src="img/new-project.png" height="600"/>
 
