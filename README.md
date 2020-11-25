@@ -13,16 +13,16 @@ Para este tutorial vamos a utilizar el programa **Android Studio**, el cual pode
 
 Una vez descargado e instalado el programa y los SDK correspondientes, vamos a proceder a crear un nuevo proyecto en **File > New > New Project**. Vamos a ver una ventana como la siguiente:
 
-<img src="img/new-project.png" height="600"/>
+<img src="img/new-project.png" height="400"/>
 
 Vamos a seleccionar "Empty Activity" y luego presionamos "Next". Ahora vamos a ver una ventana como ésta:
 
-<img src="img/new-project2.png" height="600"/>
+<img src="img/new-project2.png" height="400"/>
 
 En "Name" vamos a poner "PrimerAppKotlin" y en "Language" elegimos "Kotlin". Luego apretar el botón Finish y el proyecto comenzará a crearse.
 Una vez creado el proyecto, vamos a ver una ventana como la siguiente:
 
-<img src="img/project-built.png" height="600"/>
+<img src="img/project-built.png" height="400"/>
 
 Acá vamos a ver dos principales archivos, **"MainActivity.kt"** y **"activity_main.xml"**. Éstos archivos son los pilares de toda aplicación Android, y van a ser usados en conjunto para darle el funcionamiento y la UI a la aplicación.  
 El archivo **"MainActivity.kt"** es en dónde vamos a colocar todo el código que le da el funcionamiento a nuestra aplicación; y el archivo **"activity_main.xml"** es en donde vamos a modificar la UI de la aplicación (botones, campos de texto, etc).
