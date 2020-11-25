@@ -122,10 +122,7 @@ Una vez dentro del listener, vamos a evaluar si el EditText está vacío; si lo 
 buttonAdd.setOnClickListener {
 
     if (texto.isEmpty()) {
-        editText.error = "El campo está vacío. Por favor, escribe algo para poder continuar"
-    }
-    else {
-        editText.error = null
+        editText.error = "Este campo está vacío"
     }
 
 }
@@ -163,7 +160,6 @@ buttonAdd.setOnClickListener {
         editText.error = "El campo está vacío. Por favor, escribe algo para poder continuar"
     }
     else {
-        editText.error = null
         items.add(texto.toString())
         texto.clear()
         listView.adapter = arrayAdapter
@@ -220,7 +216,7 @@ Ahora, vamos a hacer click derecho en la carpeta **drawable** y vamos a hacer cl
 
 ## Quinta parte: Funcionalidad del botón borrar
 
-Ahora nos vamos a colocar nuevamente en **MainActivity.kt** y afuera, por debajo de **_onCreate_**, vamos a colocar lo suiguiente:
+Ahora nos vamos a colocar nuevamente en **MainActivity.kt**, afuera y por debajo de **_onCreate_**, vamos a colocar lo suiguiente:
 
 ``` kotlin
 override fun onCreateOptionsMenu(menu: Menu?): Boolean {

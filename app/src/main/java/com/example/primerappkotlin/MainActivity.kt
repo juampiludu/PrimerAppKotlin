@@ -26,10 +26,9 @@ class MainActivity : AppCompatActivity() {
 
         buttonAdd.setOnClickListener {
             if (texto.isEmpty()) {
-                editText.error = "El campo está vacío. Por favor, escribe algo para poder continuar"
+                editText.error = "Este campo está vacío"
             }
             else {
-                editText.error = null
                 items.add(texto.toString())
                 texto.clear()
                 listView.adapter = arrayAdapter
