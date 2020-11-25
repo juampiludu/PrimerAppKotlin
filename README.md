@@ -215,7 +215,7 @@ Una vez creado el archivo **"delete_button.xml"**, reemplazar el código por el 
 Ahora, vamos a hacer click derecho en la carpeta **drawable** y vamos a hacer click en **New > Vector Asset**. Una vez dentro, en **Clip art**, buscar un ícono que represente un tacho de basura, más específicamente el ícono **"delete"**. Ahora **Color** elegimos el color blanco (#FFFFFF) y el **Name** lo dejamos como está. Damos en **Next** y luego en **Finish**.
 
 <img src="img/icon.png" height="600"/>
--
+
 <img src="img/icon2.png" height="600"/>
 
 ## Quinta parte: Funcionalidad del botón borrar
@@ -287,7 +287,7 @@ Una vez que el **for** termina de evaluar la lista, vamos a limpiar el **positio
 Finalmente, se debería así:
 
 <img src="img/delete.png" height="600"/>
--
+
 <img src="img/delete2.png" height="600"/>
 
 Imports:
@@ -298,7 +298,7 @@ import android.view.MenuItem
 import android.widget.Toast
 ```
 
-**El código fuente se ecuentra [aquí](/app/src/main).**
+**El código fuente se ecuentra [aquí](/app/src/main/java/com/example/primerappkotlin/).**
 
 ### Documentación
 
